@@ -1,0 +1,25 @@
+body {
+  z-index: 0;
+}
+.addNewCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 5px;
+}
+
+.addNewCardButton {
+  width: 100%;
+}
+
+.popupFlashCard {
+  width: inherit;
+  height: 100px;
+  overflow-y: scroll;
+  display: grid;
+  font-weight: bold;
+  place-items: center;
+  margin: 5px;
+  border: 1px solid black;
+  padding: 2px;
+}
